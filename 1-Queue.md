@@ -8,31 +8,48 @@ Queue's are a handy data structure found in most languages. This tutorial is for
 
 ## Types of Queues
 
-don't get me wrong, queues are pretty... straight-forward
+Queues as a data structure are pretty straightforward. There are three main examples of a queue that may help explain what the Queue data structure is and how it works.
 
-### Grocery
+### Vending Machines
 
-Here's the typcial one
+This easiest? 
+<br>pt 2
+<br>Pt 3?
 
-### Web Server
+### Cars in a Turn Lane
 
-Interesting.... but whyyyyy
+Second easiest? 
+<br>HI ther?<b>front</b> <b> back</b>. <b>enqueue</b> operation. When someone is removed, always the person at the front, it is called a <b>dequeue</b> operation.
 
-### Reader/Writer
+### Git Hub
 
-I give up.
+
+bit more writing 
+<br>Other Writing
+<br>WRiting here
 
 ## Queue Commands
 
-Yep. This again
+The commands for working with a queue are fairly simple. There are 4 main operations for the queue datastructure. 
+ 
+
+Operation | Description | Code Example(Python) | Big O Notation
+-------- | -------- | -------- |----------
+<b>enqueue(value) | this is used to add a value to the back of the queue.| `my_queue.append(value)` | hi there
+<b>dequeue() | Removes the item at the front of the queue. Two options: remove and return the front item or pop off index 0. | `value = my_queue[0], del my_queue[0]` <b>or</b> `value = my_queue.pop(0)` | hit there
+<b>size() | This returns the size of the queue. | `length = len(my_queue)` | H there
+<b>empty() | This returns true of the length of the queu is zero, aka if the queue is empty. | `if len(my_queue) == 0:` | thi there
+
+## Big O Notation
+
+* enqueue(value) - 
+* dequeue() - 
+* size() -  
+* empty() - This returns true of the length of the queue is zero, aka if the queue is empty.
 
 ## Testing
 
 This is too much for me rn
-
-## Big O Notation
-
-So STUPID yet necessary
 
 ## Example
 
