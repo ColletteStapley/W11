@@ -11,9 +11,10 @@ Queue's are a handy data structure found in most languages. This tutorial is for
 Queues as a data structure are pretty straightforward. There are three main examples of a queue that may help explain what the Queue data structure is and how it works.
 
 ### Vending Machines
-
 This easiest? 
+
 <br>pt 2
+
 <br>Pt 3?
 
 ### Cars in a Turn Lane
@@ -40,21 +41,10 @@ Operation | Description | Code Example(Python) | Big O Notation
 <b>size() | This returns the size of the queue. | `length = len(my_queue)` | H there
 <b>empty() | This returns true of the length of the queu is zero, aka if the queue is empty. | `if len(my_queue) == 0:` | thi there
 
-## Big O Notation
-
-* enqueue(value) - 
-* dequeue() - 
-* size() -  
-* empty() - This returns true of the length of the queue is zero, aka if the queue is empty.
-
-## Testing
-
-This is too much for me rn
-
 ## Example
 
-I hope coming up with this wont take too long....
+I NEED IDEA'S I'M SO LOST ON THIS
 
 ## Problem to Solve
 
-I don't know if this will be better or worse than the previous one.
+THIS ONE'S EVEN WORSE I FEEL LIKE I NEED SOMETHING THAT SHOWS HOW IT CAN BE USED IN MORE COMPLEX WAYS CUT I CAN'T THINK OF ANYTHING
