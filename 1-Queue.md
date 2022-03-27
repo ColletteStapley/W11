@@ -12,9 +12,7 @@ Queues as a data structure are pretty straightforward. There are three main exam
 
 ### Vending Machines
 This easiest? 
-
 <br>pt 2
-
 <br>Pt 3?
 
 ### Cars in a Turn Lane
@@ -23,7 +21,6 @@ Second easiest?
 <br>HI ther?<b>front</b> <b> back</b>. <b>enqueue</b> operation. When someone is removed, always the person at the front, it is called a <b>dequeue</b> operation.
 
 ### Git Hub
-
 
 bit more writing 
 <br>Other Writing
