@@ -4,9 +4,9 @@
 
 ## Introduction
 
-Linked lists take the memory of a dynamic array and scatter it across the system. This allows the list to hold a lot of values. The problem is, how on earth does this keep an order if the values aren't held together? By linking them, like chains. They may be in different spots in memeroy, but each value, aka <b>Node</b> has a pointer to the value in front of it and a pointer to the value behind it. Then, this list itself has a <b>Head</b> pointer and a <b>Tail</b> pointer, that mark the front and back of the list.  
+Linked lists take the memory of a dynamic array and scatter it across the system. This allows the list to hold a lot of values. The problem is, how on earth does this keep an order if the values aren't held together? By linking them, like chains. They may be in different spots in memory, but each value, aka <b>Node</b> has a pointer to the value in front of it and a pointer to the value behind it. Then, this list itself has a <b>Head</b> pointer and a <b>Tail</b> pointer, that mark the front and back of the list.  
 
-## Snake Node Structure
+## Chains and Links
 
 As was briefly explained above a linked list is like a chain. Each link holds a location in memory with the desired data. Then, each link is attatched to two other links. On in "front" and one in "back". Normal chains don't have a front/back orientation, but linked list's do. So One link, or Node holds the memory location, and two pointers to two other links/nodes. In order to add anything into the list/chain, you need to create the link/node,  and change the points for all that need changing. 
 
@@ -14,7 +14,7 @@ As was briefly explained above a linked list is like a chain. Each link holds a 
 
 Inserting and removing from lists can be a bit complicated at first, expecially since the terms prev, next, head, and tail, can be a bit confusing unless you understand the structure. 
 
-<br> The prev and next pointers are pretty self explanetory on their own: Next points to the next node, and prev points to the previous node. It's when Head and Tail come it that it gets a bit backwards. Based on the order of the next's and prev's, you'd expect the fron of the list to have the empty next pointer. But it isn't The node that has an empty prev. pointer is where the head is. Vice Versa, the node with an empty next pointer is where the tail is.
+<br> The prev and next pointers are pretty self explanetory on their own: Next points to the next node, and prev points to the previous node. It's when Head and Tail come it that it gets a bit backwards. Based on the order of the next's and prev's, you'd expect the front of the list to have the empty next pointer. But it isn't The node that has an empty prev. pointer is where the head is. Vice Versa, the node with an empty next pointer is where the tail is.
 
 
 ### For Inserting into the Front of the List / the Head
