@@ -14,7 +14,7 @@ As was briefly explained above a linked list is like a chain. Each link holds a 
 
 Inserting and removing from lists can be a bit complicated at first, expecially since the terms prev, next, head, and tail, can be a bit confusing unless you understand the structure. 
 
-<br> The prev and next pointers are pretty self explanetory on their own: Next points to the next node, and prev points to the previous node. It's when Head and Tail come it that it gets a bit backwards. Based on the order of the next's and prev's, you'd expect the front of the list to have the empty next pointer. But it isn't The node that has an empty prev. pointer is where the head is. Vice Versa, the node with an empty next pointer is where the tail is.
+<br> The prev and next pointers are pretty self explanetory on their own: Next points to the next node, and prev points to the previous node. It's when Head and Tail come it that it gets a bit backwards. Based on the order of the next's and prev's, you'd expect the front of the list to have the empty next pointer. But it isn't. The node that has an empty prev. pointer is where the head is. Vice Versa, the node with an empty next pointer is where the tail is.
 
 
 ### For Inserting into the Front of the List / the Head
@@ -102,7 +102,7 @@ class Chain:
 
     class Link:
         """
-        Each link needs to have a "pointer" to the nex tand previous links
+        Each link needs to have a "pointer" to the next and previous links
         """
 
         def __init__(self, data):
