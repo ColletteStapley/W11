@@ -10,12 +10,13 @@ Queue's are a handy data structure found in most languages. This tutorial is for
 
 Queues as a data structure are pretty straightforward. There are three main examples of a queue that may help explain what the Queue data structure is and how it works. This can be helpful in understanding the different uses of the queue data structure.
 
+![Alt](/pictures/Queue%20Diagram.png "Queue")
 
 ### Cars in a Turn Lane
 
-WHen there is a busy road and a packed turn lane, this is actually a great metaphore for a queue. Queues have a front and a back, and nothing can be iserted into the middle. Nothing can be added to the front. Cars can only join the turn lane from the back. 
+When there is a busy road and a packed turn lane, this is actually a great metaphore for a queue. Queues have a front and a back, and nothing can be iserted into the middle. Nothing can be added to the front. Cars can only join the turn lane from the back. 
 
-<br>Think of it this way. There are three cars int he left turn lane at a light. The front car is blue, the middl car is black, and the last car is red. The blue car is called the <b>front</b> of the queue. The red car is the <b> back</b>. Cars can only join the line from the back, using what is called an <b>enqueue</b> operation. When that blue car turns, or is removed from the list, it is called a <b>dequeue</b> operation. When a <b>dequeue</b> operation happens, the rest of the items int he queue move forward, like the cars in the line moving forward to fill the empty space left by the departed Blue car. The white car is now the front of the line/ queue, and more cars can be added on behind the red car. 
+<br>Think of it this way. There are three cars in the left turn lane at a light. The front car is blue, the middl car is black, and the last car is red. The blue car is called the <b>front</b> of the queue. The red car is the <b> back</b>. Cars can only join the line from the back, using what is called an <b>enqueue</b> operation. When that blue car turns, or is removed from the list, it is called a <b>dequeue</b> operation. When a <b>dequeue</b> operation happens, the rest of the items int he queue move forward, like the cars in the line moving forward to fill the empty space left by the departed Blue car. The white car is now the front of the line/ queue, and more cars can be added on behind the red car. 
 
 ### Vending Machines
 There are plenty of easy examples of queues in life, like lines at a grocery store or food place. But there are plenty other examples too. Take a rolling shelf for example. Now this does not mean a shelf on wheels. This means a shelf with rows for rolling cans. It is controlled by gravity, and has rows of angled shelves. A can is added at the top of the sloped shelf, and it can only go down to the bottom of the slope. This makes it really hard to take the cans at the top of the stack first. You have to remove the can from the bottom where there is a spot for the can to be removed. When a can is removed, the rest of the cans fall/roll to fil the space.
@@ -44,7 +45,7 @@ Operation | Description | Code Example(Python) | Big O Notation
 
 ## Example
 
-I NEED IDEA'S I'M SO LOST ON THIS
+hmmmm
 
 ## Problem to Solve
 
